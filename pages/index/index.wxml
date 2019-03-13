@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="dld" wx:for="{{content}}">
+    <view  class="img">
+      <image src="{{item.img}}"></image>
+    </view>
+    <view class="hha">
+      <text>{{item.title}}</text>
+      <text>{{item.author}}</text>
+      <text>{{item.con}}</text>
+    </view>
+  </view>
+</view>
